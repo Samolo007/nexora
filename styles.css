@@ -1047,8 +1047,8 @@ select {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  min-height: 50px;
-  padding: 0 20px;
+  min-height: 56px;
+  padding: 4px 18px 4px 6px;
   border: 0;
   border-radius: 999px;
   background: #2563eb;
@@ -1058,8 +1058,13 @@ select {
   cursor: pointer;
 }
 
-.chat-toggle span {
-  font-size: 1.25rem;
+.chat-toggle-avatar {
+  width: 44px;
+  height: 44px;
+  border: 2px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
 }
 
 .chat-panel {
@@ -1086,14 +1091,25 @@ select {
   display: flex;
   flex: 0 0 auto;
   align-items: center;
-  justify-content: space-between;
+  gap: 12px;
   padding: 16px;
   background: #0b203d;
   color: white;
 }
 
+.chat-avatar {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
 .chat-header div {
   display: grid;
+  flex: 1;
   gap: 4px;
 }
 

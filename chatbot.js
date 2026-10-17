@@ -1,9 +1,10 @@
 const chatWidget = document.createElement("section");
 chatWidget.className = "chat-widget";
 chatWidget.innerHTML = `
-  <section class="chat-panel" id="nexora-chat-panel" aria-label="Assistant Nexora" hidden>
+  <section class="chat-panel" id="nexora-chat-panel" aria-label="Nexo" hidden>
     <header class="chat-header">
-      <div><strong>Assistant Nexora</strong><span>Posez-nous votre question</span></div>
+      <img class="chat-avatar" src="assets/nexo-avatar.png" alt="" />
+      <div><strong>Nexo</strong><span>Posez-nous votre question</span></div>
       <button class="chat-close" type="button" aria-label="Fermer la conversation">×</button>
     </header>
     <div class="chat-messages" role="log" aria-live="polite" aria-relevant="additions text">
@@ -16,7 +17,7 @@ chatWidget.innerHTML = `
     </form>
   </section>
   <button class="chat-toggle" type="button" aria-expanded="false" aria-controls="nexora-chat-panel">
-    <span aria-hidden="true">✦</span> Une question ?
+    <img class="chat-toggle-avatar" src="assets/nexo-avatar.png" alt="" /> Une question ?
   </button>
 `;
 document.body.append(chatWidget);
