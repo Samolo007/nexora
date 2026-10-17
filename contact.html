@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contactez Nexora ou envoyez-nous une demande pour votre projet."
+    />
+    <title>Contact | Nexora</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="index.html" aria-label="Nexora, accueil">
+          <img class="brand-logo" src="assets/nexora-logo.png" alt="" />
+          <span>Nexora</span>
+        </a>
+        <nav class="menu" aria-label="Navigation principale">
+          <a href="solutions.html">Solutions</a>
+          <a href="realisations.html">Réalisations</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+        <a class="cta-btn" href="contact.html">Discuter de mon projet</a>
+      </div>
+      <div class="container hero">
+        <div class="eyebrow">CONTACT</div>
+        <h1>Discutons de votre projet.</h1>
+        <p>
+          Choisissez le moyen le plus simple : un message, un rendez-vous ou un rappel.
+        </p>
+      </div>
+    </header>
+
+    <main class="container main-content">
+      <aside class="side-panel">
+        <div class="info-card">
+          <div class="label">RENDEZ-VOUS</div>
+          <p>Réservez un créneau avec nous.</p>
+          <button class="secondary-btn" type="button">Prendre rendez-vous</button>
+        </div>
+        <div class="info-card">
+          <div class="label">ÉCHANGE DIRECT</div>
+          <p>Écrivez-nous sur WhatsApp ou demandez à être rappelé.</p>
+          <button class="secondary-btn outline" type="button">WhatsApp Business</button>
+        </div>
+        <div class="info-card email-card">
+          <div class="label">EMAIL</div>
+          <a href="mailto:contact@nexora.com">contact@nexora.com</a>
+          <a href="mailto:hello@nexora.com">hello@nexora.com</a>
+        </div>
+      </aside>
+
+      <section class="form-panel" aria-label="Formulaire de demande">
+        <form action="confirmation.html" method="post" data-nexora-form>
+          <h2>Votre demande</h2>
+          <div class="field-group">
+            <label for="nom">Nom</label>
+            <input id="nom" name="nom" type="text" required />
+          </div>
+          <div class="field-group">
+            <label for="phone">Téléphone ou email</label>
+            <input id="phone" name="contact" type="text" required />
+          </div>
+          <div class="field-group">
+            <label for="company">Entreprise</label>
+            <input id="company" name="entreprise" type="text" />
+          </div>
+          <div class="field-group">
+            <label for="need">Votre besoin</label>
+            <textarea id="need" name="besoin" rows="4"></textarea>
+          </div>
+
+          <div class="subheading">POUR MIEUX VOUS RÉPONDRE (FACULTATIF)</div>
+          <div class="row two-cols">
+            <div class="field-group">
+              <label class="sr-only" for="country">Pays</label>
+              <select id="country" name="pays">
+                <option value="" selected>Pays</option>
+              </select>
+            </div>
+            <div class="field-group">
+              <label class="sr-only" for="sector">Secteur</label>
+              <select id="sector" name="secteur">
+                <option value="" selected>Secteur</option>
+              </select>
+            </div>
+          </div>
+          <div class="row two-cols">
+            <div class="field-group">
+              <label class="sr-only" for="budget">Budget (tranche)</label>
+              <select id="budget" name="budget">
+                <option value="" selected>Budget (tranche)</option>
+              </select>
+            </div>
+            <div class="field-group">
+              <label class="sr-only" for="date">Date souhaitée</label>
+              <input id="date" name="date" type="date" />
+            </div>
+          </div>
+
+          <label class="checkbox-row" for="consent">
+            <input id="consent" name="consentement" type="checkbox" required />
+            <span>
+              J'accepte que mes données soient utilisées pour traiter ma demande.
+              Politique de confidentialité
+            </span>
+          </label>
+          <button class="submit-btn" type="submit">Envoyer ma demande →</button>
+          <p class="form-error" role="alert" hidden></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© Nexora — <a href="mailto:contact@nexora.com">contact@nexora.com</a></span>
+        <span>Mentions légales · Confidentialité</span>
+      </div>
+    </footer>
+    <script src="contact.js" defer></script>
+  </body>
+</html>

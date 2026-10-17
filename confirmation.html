@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmation | Nexora</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar confirmation-header">
+      <div class="container nav">
+        <a class="brand" href="index.html" aria-label="Nexora, accueil"><img class="brand-logo" src="assets/nexora-logo.png" alt="" /><span>Nexora</span></a>
+        <nav class="menu" aria-label="Navigation principale"><a href="solutions.html">Solutions</a><a href="realisations.html">Réalisations</a><a href="contact.html">Contact</a></nav>
+        <a class="cta-btn" href="contact.html">Discuter de mon projet</a>
+      </div>
+      <div class="container hero">
+        <div class="eyebrow">DEMANDE ENVOYÉE</div>
+        <h1>Merci, votre demande est bien reçue.</h1>
+        <p>Nous revenons vers vous sous [DÉLAI À DÉFINIR].</p>
+      </div>
+    </header>
+    <main class="confirmation-main">
+      <section class="confirmation-card" aria-labelledby="summary-title">
+        <h2 id="summary-title">RÉCAPITULATIF</h2>
+        <div class="summary-lines">
+          <p>Nom : <span id="summary-name">[NOM]</span></p>
+          <p>Entreprise : <span id="summary-company">[ENTREPRISE]</span></p>
+          <p>Besoin : <span id="summary-need">[BESOIN]</span></p>
+          <p>Référence : <span id="summary-reference">[ID DE LA DEMANDE]</span></p>
+        </div>
+        <h2 class="next-step-title">ET MAINTENANT ?</h2>
+        <p class="next-step-copy">Gagnez du temps en choisissant la suite.</p>
+        <div class="confirmation-actions">
+          <a class="secondary-btn" href="contact.html">Prendre rendez-vous</a>
+          <a class="secondary-btn outline" href="https://wa.me/" target="_blank" rel="noopener noreferrer">Continuer sur WhatsApp</a>
+        </div>
+        <p id="confirmation-error" class="form-error" role="alert" hidden></p>
+      </section>
+    </main>
+    <footer class="footer"><div class="container footer-inner"><span>© Nexora — contact@getnexora.com</span><span>Mentions légales · Confidentialité</span></div></footer>
+    <script src="confirmation.js" defer></script>
+  </body>
+</html>
