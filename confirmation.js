@@ -11,8 +11,14 @@ try {
     const submission = JSON.parse(savedSubmission);
     const values = {
       nom: submission.nom,
-      entreprise: submission.entreprise || "Non renseignée",
-      besoin: submission.besoin || "Non renseigné",
+      entreprise:
+        submission.entreprise ||
+        window.nexoraLanguage?.text("Non renseignée") ||
+        "Non renseignée",
+      besoin:
+        submission.besoin ||
+        window.nexoraLanguage?.text("Non renseigné") ||
+        "Non renseigné",
       reference: submission.reference,
     };
 
@@ -31,7 +37,11 @@ try {
 
   const message = document.querySelector("#confirmation-error");
   if (message) {
-    message.textContent = "Le récapitulatif n’a pas pu être chargé. Contactez-nous si votre demande a été envoyée.";
+    message.textContent =
+      window.nexoraLanguage?.text(
+        "Le récapitulatif n’a pas pu être chargé. Contactez-nous si votre demande a été envoyée.",
+      ) ??
+      "Le récapitulatif n’a pas pu être chargé. Contactez-nous si votre demande a été envoyée.";
     message.hidden = false;
   }
 }

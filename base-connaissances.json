@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "keywords": {
+        "fr": ["bonjour", "salut", "bonsoir"],
+        "en": ["hello", "hi", "good morning", "good afternoon", "good evening"],
+        "es": ["hola", "buenos dias", "buenas tardes", "buenas noches"]
+      },
+      "answers": {
+        "fr": "Bonjour ! Je suis l’assistant Nexora. Posez-moi une question sur nos solutions ou notre façon de travailler.",
+        "en": "Hello! I'm the Nexora assistant. Ask me about our solutions or how we work.",
+        "es": "¡Hola! Soy el asistente de Nexora. Pregúntame sobre nuestras soluciones o nuestra forma de trabajar."
+      }
+    },
+    {
+      "keywords": {
+        "fr": ["solution", "solutions", "services", "offre", "offres"],
+        "en": ["solution", "solutions", "service", "services", "offer", "offers"],
+        "es": ["solucion", "soluciones", "servicio", "servicios", "oferta", "ofertas"]
+      },
+      "answers": {
+        "fr": "Nexora propose quatre familles de solutions : présence digitale, gestion et pilotage, automatisation et outils sur mesure. Dites-moi laquelle vous intéresse, ou contactez notre équipe.",
+        "en": "Nexora offers four types of solutions: digital presence, business management and insights, automation, and custom tools. Tell me which one you're interested in, or contact our team.",
+        "es": "Nexora ofrece cuatro tipos de soluciones: presencia digital, gestión y control, automatización y herramientas a medida. Dime cuál te interesa o ponte en contacto con nuestro equipo."
+      }
+    },
+    {
+      "keywords": {
+        "fr": ["site web", "site vitrine", "site internet", "e-commerce", "landing page"],
+        "en": ["website", "business website", "online store", "e-commerce", "landing page"],
+        "es": ["sitio web", "pagina web", "tienda en linea", "comercio electronico", "pagina de destino"]
+      },
+      "answers": {
+        "fr": "Nous pouvons concevoir une présence digitale adaptée à votre activité : site vitrine, boutique e-commerce ou page de présentation. Décrivez votre projet sur la page Contact.",
+        "en": "We can design a digital presence for your business: a company website, an e-commerce store, or a landing page. Tell us about your project on the Contact page.",
+        "es": "Podemos diseñar una presencia digital adaptada a tu negocio: una web corporativa, una tienda en línea o una página de destino. Cuéntanos tu proyecto en la página de contacto."
+      }
+    },
+    {
+      "keywords": {
+        "fr": ["automatisation", "automatiser", "réservation", "rappel", "facturation"],
+        "en": ["automation", "automate", "booking", "reminder", "invoicing"],
+        "es": ["automatizacion", "automatizar", "reserva", "recordatorio", "facturacion"]
+      },
+      "answers": {
+        "fr": "Nous aidons à automatiser des tâches comme les réservations, les relances, les notifications et la facturation, selon votre fonctionnement.",
+        "en": "We help automate tasks such as bookings, follow-ups, notifications, and invoicing to fit the way your business works.",
+        "es": "Te ayudamos a automatizar tareas como reservas, seguimientos, notificaciones y facturación según la forma de trabajar de tu negocio."
+      }
+    },
+    {
+      "keywords": {
+        "fr": ["prix", "tarif", "budget", "devis", "coût"],
+        "en": ["price", "pricing", "budget", "quote", "cost"],
+        "es": ["precio", "precios", "presupuesto", "cotizacion", "coste", "costo"]
+      },
+      "answers": {
+        "fr": "Le budget dépend du besoin et du périmètre. Envoyez-nous quelques détails via le formulaire de contact pour en discuter.",
+        "en": "The budget depends on your needs and project scope. Send us a few details through the contact form and we'll discuss it with you.",
+        "es": "El presupuesto depende de tus necesidades y del alcance del proyecto. Envíanos algunos detalles a través del formulario de contacto y lo hablamos."
+      }
+    },
+    {
+      "keywords": {
+        "fr": ["contact", "contacter", "rendez-vous", "parler", "équipe"],
+        "en": ["contact", "reach", "meeting", "appointment", "team"],
+        "es": ["contacto", "contactar", "reunion", "cita", "equipo"]
+      },
+      "answers": {
+        "fr": "Vous pouvez nous écrire via la page Contact ou par email à contact@getnexora.com.",
+        "en": "You can reach us through the Contact page or by email at contact@getnexora.com.",
+        "es": "Puedes escribirnos desde la página de contacto o enviarnos un correo a contact@getnexora.com."
+      }
+    },
+    {
+      "keywords": {
+        "fr": ["réalisation", "réalisations", "exemple", "exemples", "référence"],
+        "en": ["case study", "case studies", "example", "examples", "portfolio"],
+        "es": ["proyecto", "proyectos", "ejemplo", "ejemplos", "referencia"]
+      },
+      "answers": {
+        "fr": "Consultez la page Réalisations pour voir nos exemples démonstrateurs. Ils illustrent des cas d’usage et ne représentent pas des résultats clients réels.",
+        "en": "Visit the Case Studies page to see our demos. They illustrate possible use cases and are not real client results.",
+        "es": "Visita la página de proyectos para ver nuestras demostraciones. Ilustran posibles usos y no representan resultados reales de clientes."
+      }
+    }
+  ]
+}

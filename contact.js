@@ -21,7 +21,11 @@ for (const form of forms) {
         throw error;
       }
 
-      message.textContent = "Impossible de préparer la confirmation. Réessayez ou contactez-nous par email.";
+      message.textContent =
+        window.nexoraLanguage?.text(
+          "Impossible de préparer la confirmation. Réessayez ou contactez-nous par email.",
+        ) ??
+        "Impossible de préparer la confirmation. Réessayez ou contactez-nous par email.";
       message.hidden = false;
     }
   });
