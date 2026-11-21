@@ -1203,6 +1203,24 @@ select {
     gap: 16px;
   }
 
+  .home-hero-content {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 32px;
+  }
+
+  .home-hero-content h1 {
+    font-size: clamp(2.4rem, 5vw, 3.5rem);
+  }
+
+  .solution-grid,
+  .case-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .method-chips {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .brand {
     min-width: 0;
   }
@@ -1225,6 +1243,10 @@ select {
 }
 
 @media (max-width: 720px) {
+  .container {
+    width: min(1180px, calc(100% - 32px));
+  }
+
   .chat-widget {
     right: 16px;
     bottom: 16px;
@@ -1262,6 +1284,12 @@ select {
   .nav {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 12px;
+  }
+
+  .nav > .cta-btn {
+    padding-right: 12px;
+    padding-left: 12px;
   }
 
   .menu {
@@ -1313,6 +1341,10 @@ select {
     padding-top: 34px;
   }
 
+  .home-hero-content h1 {
+    font-size: clamp(2rem, 7vw, 2.8rem);
+  }
+
   .signature-visual {
     min-height: 200px;
   }
@@ -1339,6 +1371,10 @@ select {
   .case-grid,
   .method-grid {
     grid-template-columns: 1fr;
+  }
+
+  .method-chips {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .solution-row,
