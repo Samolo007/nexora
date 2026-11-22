@@ -1371,3 +1371,36 @@ select {
     flex: 1 1 100%;
   }
 }
+
+.chat-widget {
+  right: max(12px, env(safe-area-inset-right));
+  bottom: max(12px, env(safe-area-inset-bottom));
+}
+.chat-panel {
+  width: min(360px, calc(100vw - 24px));
+  height: min(520px, calc(100vh - 24px));
+  height: min(520px, calc(100dvh - 24px));
+}
+.chat-message { max-width: 90%; }
+
+@media (max-width: 600px) {
+  .chat-widget {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 12px max(12px, env(safe-area-inset-bottom));
+    display: flex;
+    justify-content: flex-end;
+    pointer-events: none;
+  }
+  .chat-widget > * { pointer-events: auto; }
+  .chat-panel {
+    width: 100%;
+    max-width: none;
+    height: min(75vh, 560px);
+    height: min(75dvh, 560px);
+  }
+  .chat-form input { font-size: 16px; } /* évite le zoom automatique sur iPhone */
+  .chat-form button { min-height: 44px; }
+  .chat-toggle { min-height: 48px; }
+}
