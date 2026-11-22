@@ -100,6 +100,9 @@ textarea {
 
 .menu a {
   position: relative;
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
   transition: color 0.2s ease;
 }
 
@@ -157,6 +160,10 @@ textarea {
 }
 
 .cta-btn {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
   padding: 12px 18px;
   min-width: 165px;
   font-size: 0.92rem;
@@ -240,7 +247,7 @@ textarea {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 42px;
+  height: 44px;
   background: linear-gradient(180deg, #2563eb, #1d4ed8);
   border-radius: 9px;
   font-size: 0.95rem;
@@ -484,7 +491,9 @@ select {
 }
 
 .text-link {
-  display: inline-block;
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
   color: var(--primary-dark);
   font-weight: 700;
   text-decoration: underline;
@@ -759,6 +768,10 @@ select {
 }
 
 .contact-shortcuts a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
   padding: 10px 14px;
   border: 1px solid #4e9af0;
   border-radius: 8px;
@@ -843,7 +856,9 @@ select {
 }
 
 .solution-row-title a {
-  display: inline-block;
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
   padding: 9px 14px;
   border: 1px solid var(--primary);
   border-radius: 8px;
@@ -1201,6 +1216,14 @@ select {
 @media (max-width: 900px) {
   .nav {
     gap: 16px;
+  }
+
+  .solution-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .solution-row-title {
+    grid-column: 1 / -1;
   }
 
   .home-hero-content {

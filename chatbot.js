@@ -3,11 +3,11 @@
    Pour modifier : éditez CONTACT et la liste FAQ ci-dessous.
 ========================================================= */
 
-// ⚠️ À COMPLÉTER avec les vrais contacts (laissez "" pour ne pas afficher la ligne)
+// Coordonnées utilisées dans les réponses de l’assistant.
 const CONTACT = {
-  phone: "+237673477267",
+  phone: "+237 673 477 264",
   email: "nexoratech@outlook.fr",
-  whatsapp: "https://wa.me/message/CZX7RW42HEUIK1",
+  whatsapp: "https://wa.me/237673477264",
 };
 
 /* ---------- Textes de l’interface ---------- */
@@ -83,8 +83,8 @@ const FAQ = [
     fr: ["contacter", "contact", "joindre", "whatsapp", "telephone", "numero", "email", "mail", "formulaire", "appeler", "coordonnees"],
     en: ["contact", "contact you", "contact details", "reach you", "reach", "phone", "phone number", "number", "email", "mail", "form", "call you", "call", "whatsapp"],
     a: {
-      fr: `Vous pouvez contacter notre équipe à travers les moyens de contact disponibles sur notre site, notamment notre formulaire de contact ou notre canal WhatsApp lorsqu’il est proposé.`,
-      en: `You can contact our team through the contact options available on our website, in particular our contact form or our WhatsApp channel when offered.`,
+      fr: `Vous pouvez nous écrire à ${CONTACT.email} ou nous contacter sur WhatsApp au ${CONTACT.phone}.`,
+      en: `Email us at ${CONTACT.email} or reach us on WhatsApp at ${CONTACT.phone}.`,
     } },
   { id: 6,
     fr: ["creez vous des sites", "creer un site", "creation de site", "creation de sites", "site web", "sites web", "site vitrine", "faire un site", "faites vous des sites", "site internet"],

@@ -213,7 +213,6 @@ const translations = {
       "I agree to the use of my data to process my request. Privacy policy",
     "Envoyer ma demande →": "Send my request →",
     "Mentions légales · Confidentialité": "Legal notice · Privacy",
-    "© Nexora — contact@getnexora.com": "© Nexora — contact@getnexora.com",
     "DEMANDE ENVOYÉE": "REQUEST SENT",
     "Merci, votre demande est bien reçue.": "Thank you, we’ve received your request.",
     "Nous revenons vers vous sous [DÉLAI À DÉFINIR].":
@@ -469,7 +468,6 @@ const translations = {
       "Acepto que mis datos se utilicen para tramitar mi solicitud. Política de privacidad",
     "Envoyer ma demande →": "Enviar mi solicitud →",
     "Mentions légales · Confidentialité": "Aviso legal · Privacidad",
-    "© Nexora — contact@getnexora.com": "© Nexora — contact@getnexora.com",
     "DEMANDE ENVOYÉE": "SOLICITUD ENVIADA",
     "Merci, votre demande est bien reçue.": "Gracias, hemos recibido tu solicitud.",
     "Nous revenons vers vous sous [DÉLAI À DÉFINIR].":
